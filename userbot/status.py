@@ -25,7 +25,7 @@ async def alive(client, message):
     )
 
     man = (
-        f"<b>{emoji} NUB Userbot is Online</b>\n\n"
+        f"<b>{emoji} Cores999 Userbot is Online</b>\n\n"
         f"<blockquote>{alive_text}</blockquote>\n\n"
         f"{stats_block}\n\n"
         f"<b><a href='https://t.me/{GROUP}'>SUPPORT</a></b> | "
