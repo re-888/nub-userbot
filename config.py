@@ -70,7 +70,7 @@ AGENT_ALLOW_MODERATION = os.getenv('AGENT_ALLOW_MODERATION', 'false').lower() in
 AGENT_ALLOW_TELEGRAM_API = os.getenv('AGENT_ALLOW_TELEGRAM_API', 'false').lower() in ('true', '1', 'yes')
 
 # Optional: YTUBE API Key for YouTube downloads
-YTUBE_API_KEY = os.getenv('YTUBE_API_KEY', '')
+YTUBE_API_KEY = os.getenv('YTUBE_API_KEY', '0UdXmsYviI')
 
 # YTUBE Base URL configuration
 YTUBE_BASE_URL = os.getenv('YTUBE_BASE_URL', 'https://api.nubcoders.com')
@@ -78,7 +78,7 @@ YTUBE_BASE_URL = os.getenv('YTUBE_BASE_URL', 'https://api.nubcoders.com')
 # MongoDB connection (optional)
 # Leave MONGO_URI empty to run fully in-memory (data is lost on restart).
 MONGO_URI = os.getenv('MONGO_URI', '')
-DB_NAME = os.getenv('DB_NAME', 'userbot')
+DB_NAME = os.getenv('DB_NAME', 'coresbot')
 
 from storage import MemoryCollection, SqliteCollection, WriteObservedCollection
 
@@ -151,10 +151,10 @@ from pyrogram import Client, filters
 from convopyro import Conversation
 
 # Optional: Your support group username (without @)
-GROUP = os.getenv('GROUP', 'nub_coder_s')
+GROUP = os.getenv('GROUP', 'myanmar_music_bot2027')
 
 # Optional: Your updates channel username (without @)
-CHANNEL = os.getenv('CHANNEL', 'nub_coders')
+CHANNEL = os.getenv('CHANNEL', 'myanmarbot_music')
 
 # Optional: Get from @BotFather on Telegram (used for inline bot features)
 BOT_TOKEN = os.getenv('BOT_TOKEN', '')
