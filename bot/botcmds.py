@@ -46,7 +46,7 @@ from utils.custom_emojis import (
 logger = logging.getLogger("userbot")
 
 
-brief_explanation = f"""<h1>{Msg.EMOJI_ROCKET} NUB USERBOT</h1>
+brief_explanation = f"""<h1>{Msg.EMOJI_ROCKET} CORES999 USERBOT</h1>
 
 <p><b>Ultimate Telegram Automation &amp; Multi-tool System</b></p>
 
