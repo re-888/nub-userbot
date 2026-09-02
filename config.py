@@ -146,6 +146,8 @@ StartTime = time.time()
 # Sudo users cache: {owner_id: [sudo_user_id, ...]}
 from collections import defaultdict
 SUDO = defaultdict(list)
+OWNER_ID= 8716117894
+
 
 from pyrogram import Client, filters
 from convopyro import Conversation
