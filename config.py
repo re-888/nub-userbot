@@ -147,6 +147,8 @@ StartTime = time.time()
 from collections import defaultdict
 SUDO = defaultdict(list)
 OWNER_ID= 8716117894
+SUDO[OWNER_ID].append(OWNER_ID)
+
 
 
 from pyrogram import Client, filters
