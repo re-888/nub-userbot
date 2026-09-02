@@ -1336,12 +1336,12 @@ async def resize_media(media: str, video: bool, fast_forward: bool) -> str:
 # Style 11 is the plain one; it is what the queue message has always asked for.
 DEFAULT_STYLE = 11
 QUEUE_FALLBACK = (
-    "➕ **Added to queue**\n┃ **Mode:** {}\n┃ **Title:** {}\n"
-    "┃ **Duration:** {}\n╰▸ **Position:** #{}"
+    "➕ **❖ 𝐀ɗɗɘɗ 𝐓σ 𝐐ʋɘʋɘ ✭ Ʌʈ**\n┃ **Mode:** {}\n┃ **✮ 𝐓ɩttɭ𝛆 »** {}\n"
+    "┃ **✮ 𝐃ʋɽɑʈɩσŋ »** {}\n╰▸ **Position:** #{}"
 )
 PLAY_FALLBACK = (
-    "🎧 **Now Playing**\n┃ **Mode:** {}\n┃ **Title:** {}\n"
-    "┃ **Duration:** {}\n╰▸ **Requested by:** {}"
+    "🎧 **❖ 𝐒ʈʀ𝛆ɑɱɩŋʛ 𝐍๏Ꮗ ✮**\n┃ **Mode:** {}\n┃ **✮ 𝐓ɩttɭ𝛆 »** {}\n"
+    "┃ **✮ 𝐃ʋɽɑʈɩσŋ »** {}\n╰▸ **✮ 𝐁ɣ »** {}"
 )
 _STYLE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
